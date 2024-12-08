@@ -207,8 +207,8 @@ export default function Home() {
                   <p>Trending</p>
                   <p>New</p>
                 </div>
-                <h1 className="text-lg text-ter">Loudest à la Madison #1 L'integra </h1>
-                <p>We focus on ergonomics and meeting you where you work. It's only a keystroke away.</p>
+                <h1 className="text-lg text-ter">Loudest à la Madison #1 L&apos;integra </h1>
+                <p>We focus on ergonomics and meeting you where you work. It&apos;s only a keystroke away.</p>
                 <div className="flex items-center justify-between text-xs">
                   <p className="flex justify-center items-center gap-2"><LuAlarmClock />22 April 2021</p>
                   <p className="flex justify-center items-center gap-2"><GoGraph />10 comments</p>
@@ -222,8 +222,8 @@ export default function Home() {
                   <p>Trending</p>
                   <p>New</p>
                 </div>
-                <h1 className="text-lg text-ter">Loudest à la Madison #1 L'integral</h1>
-                <p>We focus on ergonomics and meeting you where you work. It's only a keystroke away.</p>
+                <h1 className="text-lg text-ter">Loudest à la Madison #1 L&apos;integral</h1>
+                <p>We focus on ergonomics and meeting you where you work. It&apos;s only a keystroke away.</p>
                 <div className="flex items-center justify-between text-xs">
                   <p className="flex justify-center items-center gap-2"><LuAlarmClock />22 April 2021</p>
                   <p className="flex justify-center items-center gap-2"><GoGraph />10 comments</p>
@@ -237,8 +237,8 @@ export default function Home() {
                   <p>Trending</p>
                   <p>New</p>
                 </div>
-                <h1 className="ftext-lg text-ter">Loudest à la Madison #1 L'integral</h1>
-                <p>We focus on ergonomics and meeting you where you work. It's only a keystroke away.</p>
+                <h1 className="ftext-lg text-ter">Loudest à la Madison #1 L&apos;integral</h1>
+                <p>We focus on ergonomics and meeting you where you work. It&apos;s only a keystroke away.</p>
                 <div className="flex items-center justify-between text-xs">
                   <p className="flex justify-center items-center gap-2"><LuAlarmClock />22 April 2021</p>
                   <p className="flex justify-center items-center gap-2"><GoGraph />10 comments</p>
