@@ -17,7 +17,7 @@ const Footer = () => {
                 <FaTwitter className='text-fcolor2 text-2xl md:text-xl' /> 
             </div>
         </div>
-        <div className='space-y-6 md:flex md:justify-between p-10 md:pl-32 md:pr-32 font-semibold text-fcolor text-sm'>
+        <div className='space-y-6 md:space-y-0 md:flex md:justify-between p-10 md:pl-32 md:pr-32 font-semibold text-fcolor text-sm'>
             {/* 1 */}
             <div>
                 <h2 className='text-base text-ter mb-6'>Legal</h2>
@@ -64,9 +64,9 @@ const Footer = () => {
                     <input 
                     type="text"
                     placeholder='Your Email'
-                    className='h-[58] w-[200] border bg-primary pl-4'
+                    className='h-14 w-52 border bg-primary pl-4'
                     />
-                    <button className='h-[58] w-[117] bg-secondary rounded-r-md text-white'>Subscribe</button>
+                    <button className='h-14 w-52 bg-secondary rounded-r-md text-white'>Subscribe</button>
                     
                 </div>
                     <p className='text-xs mt-2 text-slate-400'>Lorem, ipsum dolor.</p>
