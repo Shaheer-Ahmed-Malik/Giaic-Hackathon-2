@@ -1,6 +1,14 @@
 import Image from "next/image";
 import Hbanner from "./components/Hbanner1";
+import Hbanner2 from "./components/Hbanner2";
+import Hbanner3 from "./components/Hbanner3";
 import React from 'react'
+import { IoChevronForwardOutline } from "react-icons/io5";
+import { LuAlarmClock } from "react-icons/lu";
+import { GoGraph } from "react-icons/go";
+
+
+
 
 
 export default function Home() {
@@ -54,7 +62,7 @@ export default function Home() {
           <p className="font-sm text-sm p-6 text-fcolor">Problems trying to resolve the conflict between </p>
         </div>
         {/* grid */}
-        <div className="grid grid-cols-4 grid-rows-2 gap-10 p-32 font-bold">
+        <div className="grid grid-cols-4 grid-rows-2 gap-10 p-32 font-bold w-full">
           {/* 1 */}
           <div>
             <Image src="/home/cover1.svg" alt="" height={100} width={1000} />
@@ -179,7 +187,70 @@ export default function Home() {
         </div>
        </div>
        {/* banner2 */}
-       
+       <Hbanner2 />
+       {/* banner3 */}
+        <Hbanner3 />
+        {/* feature post */}
+        <div >
+          <div className="flex flex-col items-center justify-center text-center pt-20 text-ter font-bold text-2xl space-y-6">
+            <h3 className="font-sm text-lg p-6 text-fcolor">Practice Advice</h3>
+            <h1 className="text-ter text-2xl">Featured Posts</h1>
+            <p className="font-sm text-sm w-96 text-fcolor">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics </p>
+          </div>
+          <div>
+            
+            <div className="grid grid-cols-3 grid-rows-3 md:grid-rows-1 p-20 items-center gap-10 text-fcolor">
+              <div className="col-span-1 space-y-4 w-full">
+                <Image src="/home/blog1.svg" alt="" width={0} height={0} className="w-full h-" />
+                <div className="flex pt-6 space-x-4 text-sm text-fcolor2">
+                  <p>Google</p>
+                  <p>Trending</p>
+                  <p>New</p>
+                </div>
+                <h1 className="text-lg text-ter">Loudest à la Madison #1 L'integra </h1>
+                <p>We focus on ergonomics and meeting you where you work. It's only a keystroke away.</p>
+                <div className="flex items-center justify-between text-xs">
+                  <p className="flex justify-center items-center gap-2"><LuAlarmClock />22 April 2021</p>
+                  <p className="flex justify-center items-center gap-2"><GoGraph />10 comments</p>
+                </div>
+                <p className="flex items-center gap-2 font-semibold">learn more <IoChevronForwardOutline /></p>
+              </div>
+              <div className="col-span-1 space-y-4 w-full">
+                <Image src="/home/blog2.svg" alt="" width={0} height={0} className="w-full h-" />
+                <div className="flex pt-6 space-x-4 text-sm text-fcolor2">
+                  <p>Google</p>
+                  <p>Trending</p>
+                  <p>New</p>
+                </div>
+                <h1 className="text-lg text-ter">Loudest à la Madison #1 L'integral</h1>
+                <p>We focus on ergonomics and meeting you where you work. It's only a keystroke away.</p>
+                <div className="flex items-center justify-between text-xs">
+                  <p className="flex justify-center items-center gap-2"><LuAlarmClock />22 April 2021</p>
+                  <p className="flex justify-center items-center gap-2"><GoGraph />10 comments</p>
+                </div>
+                <p className="flex items-center gap-2 font-semibold">learn more <IoChevronForwardOutline /></p>
+              </div>
+              <div className="col-span-1 space-y-4 w-full">
+                <Image src="/home/blog3.svg" alt="" width={0} height={0} className="w-full h-" />
+                <div className="flex pt-6 space-x-4 text-sm text-fcolor2">
+                  <p>Google</p>
+                  <p>Trending</p>
+                  <p>New</p>
+                </div>
+                <h1 className="ftext-lg text-ter">Loudest à la Madison #1 L'integral</h1>
+                <p>We focus on ergonomics and meeting you where you work. It's only a keystroke away.</p>
+                <div className="flex items-center justify-between text-xs">
+                  <p className="flex justify-center items-center gap-2"><LuAlarmClock />22 April 2021</p>
+                  <p className="flex justify-center items-center gap-2"><GoGraph />10 comments</p>
+                </div>
+                <p className="flex items-center gap-2 font-semibold">learn more <IoChevronForwardOutline /></p>
+              </div>
+
+              
+            </div>
+            
+          </div>
+        </div>
        
        
 

@@ -20,7 +20,7 @@ const Hbanner = () => {
           <p>We know how large objects will act, but things on a small scale.</p>
           <p>But things on a small scale.</p>
         </div>
-        <button className="px-8 py-3 bg-green-600 text-lg rounded-md hover:bg-green-700 transition duration-300">
+        <button className="px-8 py-3 bg-buttoncolor text-lg rounded-md hover:bg-green-700 transition duration-300">
           SHOP NOW
         </button>
       </div>
