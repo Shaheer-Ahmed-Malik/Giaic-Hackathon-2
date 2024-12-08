@@ -26,34 +26,34 @@ const Header = () => {
                     
                     <div className='flex items-center space-x-4'>
                         <p>Follow Us  :</p>
-                        <a href="#">
+                        <Link href="#">
                             <Image src="/icon/instagram.svg" alt="user icon" width={15} height={15} />
-                        </a>
-                        <a href="#">
+                        </Link>
+                        <Link href="#">
                             <Image src="/icon/fb.svg" alt="user icon" width={15} height={15} />
-                        </a>
-                        <a href="#">
+                        </Link>
+                        <Link href="#">
                             <Image src="/icon/yt.svg" alt="user icon" width={15} height={15} />
-                        </a>
-                        <a href="#">
+                        </Link>
+                        <Link href="#">
                             <Image src="/icon/twitter.svg" alt="user icon" width={15} height={15} />
-                        </a>
+                        </Link>
                     </div>
             </div>
 
             <div className='flex items-center justify-between p-6 pl-10 pr-10 font-semibold'>
                 <div className='flex items-center justify-between space-x-28'>
                     <div>
-                        <h1 className='text-2xl font-bold text-ter'><a href="/">Bandage</a> </h1>
+                        <h1 className='text-2xl font-bold text-ter'><Link href="/">Bandage</Link> </h1>
                     </div>
                 <div className='text-sm text-fcolor'>
                         <ul className='flex justify-between space-x-4'>
-                        <li><a href="/">Home</a></li>
-                        <li className='flex'><a href="../product">Shop</a> <RiArrowDropDownLine className='text-xl' /></li>
-                        <li><a href="../blog">Blog</a></li>
-                        <li><a href="../about-us">About</a></li>
-                        <li><a href="../contact-us/page.tsx">Contact</a></li>
-                        <li><a href="/">Pages</a></li>
+                        <li><Link href="/">Home</Link></li>
+                        <li className='flex'><Link href="../product">Shop</Link> <RiArrowDropDownLine className='text-xl' /></li>
+                        <li><Link href="../blog">Blog</Link></li>
+                        <li><Link href="../about-us">About</Link></li>
+                        <li><Link href="../contact-us/page.tsx">Contact</Link></li>
+                        <li><Link href="/">Pages</Link></li>
                         </ul>
                 </div>
                 
@@ -61,9 +61,9 @@ const Header = () => {
                 <div className='flex space-x-10 text-sm text-fcolor2'>
                     <div className='flex space-x-2'>
                         <Image src="/icon/user.svg" alt="user icon" width={15} height={20} />
-                        <p><a href="#">Login</a></p>
+                        <p><Link href="#">Login</Link></p>
                         <p>/</p>
-                        <p><a href="#">Register</a> </p>
+                        <p><Link href="#">Register</Link> </p>
                     </div>
                     <div className='flex space-x-6'>
                         <Image src="/icon/search.svg" alt="search icon" width={20} height={20} />

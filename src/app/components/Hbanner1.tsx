@@ -1,14 +1,16 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Hbanner = () => {
   return (
     <div className="relative w-full h-[800px]">
       {/* Image */}
-      <img
+      <Image
         src="/banner/banner1.svg" // Replace with your image path
         alt="Banner Image"
-        className="w-full h-full object-cover"
-      />
+        height={0}
+        width={0}
+        className="w-full h-full object-cover" />
 
       {/* Text */}
       <div className="absolute inset-0 flex flex-col justify-center items-start text-white font-semibold p-24 space-y-6">
