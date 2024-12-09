@@ -17,7 +17,7 @@ const Footer = () => {
                 <FaTwitter className='text-fcolor2 text-2xl md:text-xl' /> 
             </div>
         </div>
-        <div className='space-y-6 md:space-y-0 md:flex md:justify-between p-10 md:pl-32 md:pr-32 font-semibold text-fcolor text-sm'>
+        <div className='space-y-10 md:space-y-0 md:flex md:justify-between p-10 md:pl-32 md:pr-32 font-semibold text-fcolor text-sm'>
             {/* 1 */}
             <div>
                 <h2 className='text-base text-ter mb-6'>Legal</h2>
@@ -72,7 +72,7 @@ const Footer = () => {
                     <p className='text-xs mt-2 text-slate-400'>Lorem, ipsum dolor.</p>
             </div>
         </div>
-        <div className='font-semibold text-fcolor text-sm bg-primary p-10 pl-32 pr-32'>
+        <div className='font-semibold text-center text-fcolor text-sm bg-primary p-10 md:px-32'>
             <p>Made With Love By Finland All Right Reserved </p>
         </div>
         

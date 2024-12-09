@@ -84,26 +84,27 @@ export default function home(){
 
             </div>
             {/* bar */}
-            <div className="flex items-center font-semibold text-fcolor justify-between py-10 px-20">
-                <p className="">Showing all 12 results</p>
-                <div className="flex">
+            <div className="flex flex-col space-y-6 md:space-y-0 text-center md:flex md:flex-row items-center font-semibold text-fcolor justify-between py-10 px-20">
+                <p>Showing all 12 results</p>
+                <div className="flex items-center justify-center gap-4">
+                    <p>Views:</p>
                     <Link href="#">
-                        <button className="flex items-center justify-center border h-12 w-12 rounded-sm bg-primary border-fcolor">
-                            <TbListCheck />
+                        <button className="flex items-center justify-center border h-12 w-12 rounded-lg bg-primary border-gray-400 hover:bg-gray-200 duration-300">
+                            <BsFillGridFill className="text-xl text-gray-700" />
                         </button>
                     </Link>
                     <Link href="#">
-                        <button className="flex items-center justify-center border h-12 w-12 rounded-sm bg-primary border-fcolor">
-                            <BsFillGridFill />
+                        <button className="flex items-center justify-center border h-12 w-12 rounded-lg bg-primary border-gray-400 hover:bg-gray-200 duration-300">
+                            <TbListCheck className="text-xl text-gray-700" />
                         </button>
                     </Link>
                     
                 </div>
-                <div className="flex">
+                <div className="flex items-center justify-center gap-4">
                     <Link href="#">
-                        <button className="flex items-center justify-center w-[141] h-[50] bg-primary hover:bg-gray-200 duration-300 border-fcolor">Popularity <RiArrowDropDownLine className="text-3xl" /></button>
+                        <button className="flex items-center justify-center w-[141] h-[50] rounded-lg font-medium bg-primary border-gray-400 border-[1px] hover:bg-gray-200 duration-300">Popularity <RiArrowDropDownLine className="text-3xl" /></button>
                     </Link>
-                        <button className="w-[94] h-[50] bg-secondary hover:bg-blue-300 duration-300 text-white">Filter</button>
+                        <button className="w-[94] h-[50] rounded-lg bg-secondary hover:bg-blue-300 duration-300 text-white">Filter</button>
                     <Link href="#">
 
                     </Link>
@@ -111,27 +112,29 @@ export default function home(){
 
             </div>
             {/* bar2 */}
-            <div className="flex justify-between items-center bg-primary px-20 py-10">
-                <Image src="/productlist/vector.svg" alt="" height={20} width={75} />
-                <Image src="/productlist/vector1.svg" alt="" height={20} width={75} />
-                <Image src="/productlist/vector3.svg" alt="" height={20} width={75} />
-                <Image src="/productlist/vector4.svg" alt="" height={20} width={75} />
-                <Image src="/productlist/vector5.svg" alt="" height={20} width={75} />
-                <Image src="/productlist/vector2.svg" alt="" height={20} width={75} />
-                
+            <div className="hidden md:block">
+                <div className="flex justify-between items-center bg-primary px-20 py-10">
+                    <Image src="/productlist/vector.svg" alt="" height={20} width={75} />
+                    <Image src="/productlist/vector1.svg" alt="" height={20} width={75} />
+                    <Image src="/productlist/vector3.svg" alt="" height={20} width={75} />
+                    <Image src="/productlist/vector4.svg" alt="" height={20} width={75} />
+                    <Image src="/productlist/vector5.svg" alt="" height={20} width={75} />
+                    <Image src="/productlist/vector2.svg" alt="" height={20} width={75} />
+                    
+                </div>
             </div>
             {/* products */}
-            <div className="hidden md:block ">
+            <div>
                 <h1 className="text-2xl text-ter font-bold text-center pt-10">Products</h1>
                 <p className="text-sm text-center pt-4">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-                <div className="grid grid-cols-4 grid-rows-3 gap-10 px-20 py-10 font-bold w-full">
+                <div className="grid md:grid-cols-4 md:grid-rows-3 gap-14 md:gap-10 px-20 py-10 font-bold w-full text-gray-600">
                     {/* 1 */}
                     <div>
                         <Image src="/home/cover1.svg" alt="" height={100} width={1000} />
                         <div className="flex flex-col items-center space-y-2">
-                        <h2 className="text-ter font-bold mt-8">Graphic Design</h2>
-                        <p className="font-sm">English Department</p>
-                        <p className="font-sm"> <span className="text-fcolor">$16.48</span> $16.48</p>
+                        <h2 className="text-ter  font-bold mt-8">Graphic Design</h2>
+                        <p className="text-sm ">English Department</p>
+                        <p className="text-sm"> <span className="text-fcolor">$16.48</span> $16.48</p>
                         <div className="flex space-x-2">
                             <div className="h-4 w-4 rounded-full bg-blue-950"></div>
                             <div className="h-4 w-4 rounded-full bg-green-600"></div>
@@ -145,8 +148,8 @@ export default function home(){
                         <Image src="/home/cover2.svg" alt="" height={100} width={1000} />
                         <div className="flex flex-col items-center space-y-2">
                         <h2 className="text-ter font-bold mt-8">Graphic Design</h2>
-                        <p className="font-sm">English Department</p>
-                        <p className="font-sm"> <span className="text-fcolor">$16.48</span> $16.48</p>
+                        <p className="text-sm">English Department</p>
+                        <p className="text-sm"> <span className="text-fcolor">$16.48</span> $16.48</p>
                         <div className="flex space-x-2">
                             <div className="h-4 w-4 rounded-full bg-blue-950"></div>
                             <div className="h-4 w-4 rounded-full bg-green-600"></div>
@@ -160,8 +163,8 @@ export default function home(){
                         <Image src="/home/cover3.svg" alt="" height={100} width={1000} />
                         <div className="flex flex-col items-center space-y-2">
                         <h2 className="text-ter font-bold mt-8">Graphic Design</h2>
-                        <p className="font-sm">English Department</p>
-                        <p className="font-sm"> <span className="text-fcolor">$16.48</span> $16.48</p>
+                        <p className="text-sm">English Department</p>
+                        <p className="text-sm"> <span className="text-fcolor">$16.48</span> $16.48</p>
                         <div className="flex space-x-2">
                             <div className="h-4 w-4 rounded-full bg-blue-950"></div>
                             <div className="h-4 w-4 rounded-full bg-green-600"></div>
@@ -175,8 +178,8 @@ export default function home(){
                         <Image src="/home/cover4.svg" alt="" height={100} width={1000} />
                         <div className="flex flex-col items-center space-y-2">
                         <h2 className="text-ter font-bold mt-8">Graphic Design</h2>
-                        <p className="font-sm">English Department</p>
-                        <p className="font-sm"> <span className="text-fcolor">$16.48</span> $16.48</p>
+                        <p className="text-sm">English Department</p>
+                        <p className="text-sm"> <span className="text-fcolor">$16.48</span> $16.48</p>
                         <div className="flex space-x-2">
                             <div className="h-4 w-4 rounded-full bg-blue-950"></div>
                             <div className="h-4 w-4 rounded-full bg-green-600"></div>
@@ -190,8 +193,8 @@ export default function home(){
                         <Image src="/home/cover5.svg" alt="" height={100} width={1000} />
                         <div className="flex flex-col items-center space-y-2">
                         <h2 className="text-ter font-bold mt-8">Graphic Design</h2>
-                        <p className="font-sm">English Department</p>
-                        <p className="font-sm"> <span className="text-fcolor">$16.48</span> $16.48</p>
+                        <p className="text-sm">English Department</p>
+                        <p className="text-sm"> <span className="text-fcolor">$16.48</span> $16.48</p>
                         <div className="flex space-x-2">
                             <div className="h-4 w-4 rounded-full bg-blue-950"></div>
                             <div className="h-4 w-4 rounded-full bg-green-600"></div>
@@ -205,8 +208,8 @@ export default function home(){
                         <Image src="/home/cover6.svg" alt="" height={100} width={1000} />
                         <div className="flex flex-col items-center space-y-2">
                         <h2 className="text-ter font-bold mt-8">Graphic Design</h2>
-                        <p className="font-sm">English Department</p>
-                        <p className="font-sm"> <span className="text-fcolor">$16.48</span> $16.48</p>
+                        <p className="text-sm">English Department</p>
+                        <p className="text-sm"> <span className="text-fcolor">$16.48</span> $16.48</p>
                         <div className="flex space-x-2">
                             <div className="h-4 w-4 rounded-full bg-blue-950"></div>
                             <div className="h-4 w-4 rounded-full bg-green-600"></div>
@@ -220,8 +223,8 @@ export default function home(){
                         <Image src="/home/cover7.svg" alt="" height={100} width={1000} />
                         <div className="flex flex-col items-center space-y-2">
                         <h2 className="text-ter font-bold mt-8">Graphic Design</h2>
-                        <p className="font-sm">English Department</p>
-                        <p className="font-sm"> <span className="text-fcolor">$16.48</span> $16.48</p>
+                        <p className="text-sm">English Department</p>
+                        <p className="text-sm"> <span className="text-fcolor">$16.48</span> $16.48</p>
                         <div className="flex space-x-2">
                             <div className="h-4 w-4 rounded-full bg-blue-950"></div>
                             <div className="h-4 w-4 rounded-full bg-green-600"></div>
@@ -235,8 +238,8 @@ export default function home(){
                         <Image src="/home/cover8.svg" alt="" height={100} width={1000} />
                         <div className="flex flex-col items-center space-y-2">
                         <h2 className="text-ter font-bold mt-8">Graphic Design</h2>
-                        <p className="font-sm">English Department</p>
-                        <p className="font-sm"> <span className="text-fcolor">$16.48</span> $16.48</p>
+                        <p className="text-sm">English Department</p>
+                        <p className="text-sm"> <span className="text-fcolor">$16.48</span> $16.48</p>
                         <div className="flex space-x-2">
                             <div className="h-4 w-4 rounded-full bg-blue-950"></div>
                             <div className="h-4 w-4 rounded-full bg-green-600"></div>
@@ -250,8 +253,8 @@ export default function home(){
                         <Image src="/home/cover3.svg" alt="" height={100} width={1000} />
                         <div className="flex flex-col items-center space-y-2">
                         <h2 className="text-ter font-bold mt-8">Graphic Design</h2>
-                        <p className="font-sm">English Department</p>
-                        <p className="font-sm"> <span className="text-fcolor">$16.48</span> $16.48</p>
+                        <p className="text-sm">English Department</p>
+                        <p className="text-sm"> <span className="text-fcolor">$16.48</span> $16.48</p>
                         <div className="flex space-x-2">
                             <div className="h-4 w-4 rounded-full bg-blue-950"></div>
                             <div className="h-4 w-4 rounded-full bg-green-600"></div>
@@ -265,8 +268,8 @@ export default function home(){
                         <Image src="/home/cover5.svg" alt="" height={100} width={1000} />
                         <div className="flex flex-col items-center space-y-2">
                         <h2 className="text-ter font-bold mt-8">Graphic Design</h2>
-                        <p className="font-sm">English Department</p>
-                        <p className="font-sm"> <span className="text-fcolor">$16.48</span> $16.48</p>
+                        <p className="text-sm">English Department</p>
+                        <p className="text-sm"> <span className="text-fcolor">$16.48</span> $16.48</p>
                         <div className="flex space-x-2">
                             <div className="h-4 w-4 rounded-full bg-blue-950"></div>
                             <div className="h-4 w-4 rounded-full bg-green-600"></div>
@@ -280,8 +283,8 @@ export default function home(){
                         <Image src="/home/cover1.svg" alt="" height={100} width={1000} />
                         <div className="flex flex-col items-center space-y-2">
                         <h2 className="text-ter font-bold mt-8">Graphic Design</h2>
-                        <p className="font-sm">English Department</p>
-                        <p className="font-sm"> <span className="text-fcolor">$16.48</span> $16.48</p>
+                        <p className="text-sm">English Department</p>
+                        <p className="text-sm"> <span className="text-fcolor">$16.48</span> $16.48</p>
                         <div className="flex space-x-2">
                             <div className="h-4 w-4 rounded-full bg-blue-950"></div>
                             <div className="h-4 w-4 rounded-full bg-green-600"></div>
@@ -295,8 +298,8 @@ export default function home(){
                         <Image src="/home/cover2.svg" alt="" height={100} width={1000} />
                         <div className="flex flex-col items-center space-y-2">
                         <h2 className="text-ter font-bold mt-8">Graphic Design</h2>
-                        <p className="font-sm">English Department</p>
-                        <p className="font-sm"> <span className="text-fcolor">$16.48</span> $16.48</p>
+                        <p className="text-sm">English Department</p>
+                        <p className="text-sm"> <span className="text-fcolor">$16.48</span> $16.48</p>
                         <div className="flex space-x-2">
                             <div className="h-4 w-4 rounded-full bg-blue-950"></div>
                             <div className="h-4 w-4 rounded-full bg-green-600"></div>
