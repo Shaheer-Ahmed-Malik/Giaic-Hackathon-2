@@ -16,7 +16,7 @@ export default {
         ter: "#252B42",
         buttoncolor: "#2DC071",
         fcolor: "#737373",
-        fcolor2: "#23A6F0",
+        fcolor2: "#BDBDBD",
         bancolor2: "#23856D",
       },
     },

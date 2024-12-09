@@ -48,12 +48,12 @@ const Header = () => {
                     </div>
                 <div className='text-sm text-fcolor'>
                         <ul className='flex justify-between space-x-4'>
-                        <li><Link href="/">Home</Link></li>
-                        <li className='flex'><Link href="../product">Shop</Link> <RiArrowDropDownLine className='text-xl' /></li>
-                        <li><Link href="../blog">Blog</Link></li>
-                        <li><Link href="../about-us">About</Link></li>
-                        <li><Link href="../contact-us/page.tsx">Contact</Link></li>
-                        <li><Link href="/">Pages</Link></li>
+                            <li className='flex duration-300 hover:text-gray-800'><Link href="/">Home</Link></li>
+                            <li className='flex duration-300 hover:text-gray-800'><Link href="../product">Shop</Link> <RiArrowDropDownLine className='text-xl' /></li>
+                            <li className='flex duration-300 hover:text-gray-800'><Link href="../blog">Blog</Link></li>
+                            <li className='flex duration-300 hover:text-gray-800'><Link href="../about-us">About</Link></li>
+                            <li className='flex duration-300 hover:text-gray-800'><Link href="../contact-us">Contact</Link></li>
+                            <li className='flex duration-300 hover:text-gray-800'><Link href="/">Pages</Link></li>
                         </ul>
                 </div>
                 
@@ -61,9 +61,9 @@ const Header = () => {
                 <div className='flex space-x-10 text-sm text-fcolor2'>
                     <div className='flex space-x-2'>
                         <Image src="/icon/user.svg" alt="user icon" width={15} height={20} />
-                        <p><Link href="#">Login</Link></p>
+                        <p className='flex duration-300 hover:text-ter'><Link href="#">Login</Link></p>
                         <p>/</p>
-                        <p><Link href="#">Register</Link> </p>
+                        <p className='flex duration-300 hover:text-ter'><Link href="#">Register</Link> </p>
                     </div>
                     <div className='flex space-x-6'>
                         <Image src="/icon/search.svg" alt="search icon" width={20} height={20} />

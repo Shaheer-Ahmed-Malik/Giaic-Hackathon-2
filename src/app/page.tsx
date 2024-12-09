@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import Hbanner from "./components/Hbanner1";
 import Hbanner2 from "./components/Hbanner2";
 import Hbanner3 from "./components/Hbanner3";
@@ -243,7 +244,8 @@ export default function Home() {
                   <p className="flex justify-center items-center gap-2"><LuAlarmClock />22 April 2021</p>
                   <p className="flex justify-center items-center gap-2"><GoGraph />10 comments</p>
                 </div>
-                <p className="flex items-center gap-2 font-semibold">learn more <IoChevronForwardOutline /></p>
+                <p className="flex items-center gap-2 font-semibold">
+                  <Link href="/blog">learn more </Link><IoChevronForwardOutline /></p>
               </div>
 
               
