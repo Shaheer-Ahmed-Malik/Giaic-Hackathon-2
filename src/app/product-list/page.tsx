@@ -23,7 +23,7 @@ export default function home(){
                 </div>
             </div>
             {/* category */}
-            <div className="grid bg-primary md:grid-cols-5 pl-20 pr-20 pb-10 gap-4">
+            <div className="grid bg-primary md:grid-cols-5 pl-20 pr-20 pb-10 gap-10">
                     {/* <Image src="/productlist/card-cover-5.svg" alt="" height={0} width={0}  */}
                     <div className="relative row-span-1 md:col-span-1 h-52 w-56 group">
                         <Link href="#">
@@ -319,6 +319,17 @@ export default function home(){
                 
 
         </div>
+        <div className="block md:hidden">
+                <div className="flex flex-col justify-between gap-20  pt-20 pb-16 mb-2 items-center bg-primary">
+                    <Image src="/productlist/vector.svg" alt="" height={20} width={75} />
+                    <Image src="/productlist/vector1.svg" alt="" height={20} width={75} />
+                    <Image src="/productlist/vector3.svg" alt="" height={20} width={75} />
+                    <Image src="/productlist/vector4.svg" alt="" height={20} width={75} />
+                    <Image src="/productlist/vector5.svg" alt="" height={20} width={75} />
+                    <Image src="/productlist/vector2.svg" alt="" height={20} width={75} />
+                    
+                </div>
+            </div>
     </div>
           
     )

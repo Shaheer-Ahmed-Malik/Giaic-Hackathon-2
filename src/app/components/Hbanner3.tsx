@@ -4,14 +4,14 @@ import Image from 'next/image'
 const Hbanner3 = () => {
   return (
     <div>
-      <div>
-        <div className='relative flex items-center h-screen bg-white'>
+      <div className=''>
+        <div className='relative flex items-center h-screen bg-white p-10'>
             <Image
             src="/banner/banner3.svg"
             alt=""
             width={0}
             height={0}
-            className="absolute bottom-0 right-80 w-full h-full" />
+            className="absolute bottom-0 right-80 w-full h-full p-" />
             <div className="flex flex-col absolute right-20 text-black space-y-10 font-semibold">
               <h3>SUMMER 2020</h3>
               <h1 className="w-96 text-4xl md:text-6xl font-bold">
@@ -31,6 +31,9 @@ const Hbanner3 = () => {
         
         </div>
         
+      </div>
+      <div>
+
       </div>
     </div>
   )

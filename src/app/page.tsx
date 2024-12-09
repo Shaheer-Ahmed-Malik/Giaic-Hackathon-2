@@ -22,7 +22,7 @@ export default function Home() {
           <p className="font-sm text-sm p-6 text-fcolor">Problems trying to resolve the conflict between </p>
         </div>
         {/* editors pick */}
-        <div>
+        <div className="hidden md-block">
            <div className="grid grid-cols-4 grid-rows-2 p-24 h-screen gap-4 text-sm font-semibold">
              <div className="relative col-span-2 row-span-2 bg-slate-600">
                 <Image src="/home/filter.svg" alt="" height={0} width={0} 
@@ -63,7 +63,7 @@ export default function Home() {
           <p className="font-sm text-sm p-6 text-fcolor">Problems trying to resolve the conflict between </p>
         </div>
         {/* grid */}
-        <div className="grid grid-cols-4 grid-rows-2 gap-10 p-32 font-bold w-full">
+        <div className="grid md:grid-cols-4 md:grid-rows-2 gap-10 space-y-8 md:space-y-0 p-24 md:p-32 text-center font-bold w-full">
           {/* 1 */}
           <div>
             <Image src="/home/cover1.svg" alt="" height={100} width={1000} />
@@ -200,7 +200,7 @@ export default function Home() {
           </div>
           <div>
             
-            <div className="grid grid-cols-3 grid-rows-3 md:grid-rows-1 p-20 items-center gap-10 text-fcolor">
+            <div className="grid md:grid-cols-3 grid-rows-3 md:grid-rows-1 p-20 items-center gap-10 text-fcolor">
               <div className="col-span-1 space-y-4 w-full">
                 <Image src="/home/blog1.svg" alt="" width={0} height={0} className="w-full h-" />
                 <div className="flex pt-6 space-x-4 text-sm text-fcolor2">
