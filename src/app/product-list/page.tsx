@@ -23,9 +23,8 @@ export default function home(){
                 </div>
             </div>
             {/* category */}
-            <div className="grid bg-primary md:grid-cols-5 pl-20 pr-20 pb-10 gap-10">
-                    {/* <Image src="/productlist/card-cover-5.svg" alt="" height={0} width={0}  */}
-                    <div className="relative row-span-1 md:col-span-1 h-52 w-56 group">
+            <div className="grid bg-primary md:grid-cols-5 justify-center p-10 md:px-20 md:pb-10 gap-10">
+                    <div className="relative row-span-1 md:col-span-1 h-72 md:h-52 w-80 md:w-56 group">
                         <Link href="#">
                         <Image src="/productlist/card-cover-5.svg" alt="" height={0} width={0}
                         className="h-full w-full object-cover brightness-50 group-hover:brightness-100 transition duration-300" />
@@ -36,7 +35,7 @@ export default function home(){
                         </Link>
                     </div>
                     {/* 2 */}
-                    <div className="relative row-span-1 md:col-span-1 h-52 w-56 group">
+                    <div className="relative row-span-1 md:col-span-1 h-72 md:h-52 w-80 md:w-56 group">
                         <Link href="#">
                         <Image src="/productlist/card-cover-6.svg" alt="" height={0} width={0}
                         className="h-full w-full object-cover brightness-50 group-hover:brightness-100 transition duration-300" />
@@ -47,7 +46,7 @@ export default function home(){
                         </Link>
                     </div>
                     {/* 3 */}
-                    <div className="relative row-span-1 md:col-span-1 h-52 w-56 group">
+                    <div className="relative row-span-1 md:col-span-1 h-72 md:h-52 w-80 md:w-56 group">
                         <Link href="#">
                         <Image src="/productlist/card-cover-3.svg" alt="" height={0} width={0}
                         className="h-full w-full object-cover brightness-50 group-hover:brightness-100 transition duration-300" />
@@ -58,7 +57,7 @@ export default function home(){
                         </Link>
                     </div>
                     {/* 4 */}
-                    <div className="relative row-span-1 md:col-span-1 h-52 w-56 group">
+                    <div className="relative row-span-1 md:col-span-1 h-72 md:h-52 w-80 md:w-56 group">
                         <Link href="#">
                         <Image src="/productlist/card-cover-7.svg" alt="" height={0} width={0}
                         className="h-full w-full object-cover brightness-50 group-hover:brightness-100 transition duration-300" />
@@ -69,7 +68,7 @@ export default function home(){
                         </Link>
                     </div>
                     {/* 5 */}
-                    <div className="relative row-span-1 md:col-span-1 h-52 w-56 group">
+                    <div className="relative row-span-1 md:col-span-1 h-72 md:h-52 w-80 md:w-56 group">
                         <Link href="#">
                         <Image src="/productlist/card-cover-4.svg" alt="" height={0} width={0}
                         className="h-full w-full object-cover brightness-50 group-hover:brightness-100 transition duration-300" />
@@ -84,7 +83,7 @@ export default function home(){
 
             </div>
             {/* bar */}
-            <div className="flex flex-col space-y-6 md:space-y-0 text-center md:flex md:flex-row items-center font-semibold text-fcolor justify-between py-10 px-20">
+            <div className="flex flex-col space-y-6 md:space-y-0 text-center md:flex md:flex-row items-center font-semibold text-fcolor justify-center my-10">
                 <p>Showing all 12 results</p>
                 <div className="flex items-center justify-center gap-4">
                     <p>Views:</p>

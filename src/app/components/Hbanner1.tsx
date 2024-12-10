@@ -1,19 +1,35 @@
-import React from 'react';
-import Image from 'next/image';
+import React from "react";
+import Image from "next/image";
 
 const Hbanner = () => {
   return (
-    <div className="relative w-full h-[800px]">
+    <div className="relative w-full h-screen">
       {/* Image */}
-      <Image
-        src="/banner/banner1.svg" // Replace with your image path
+      <div className="hidden md:block">
+        <Image
+        src="/banner/mainbanner.jpg" // Replace with your image path
         alt="Banner Image"
-        height={0}
-        width={0}
-        className="w-full h-full object-cover" />
+        layout="fill" // Ensures the image fills the container
+        objectFit="cover" // Maintains aspect ratio and fills the container
+        quality={100} // High-quality rendering
+        priority // Ensures this image is loaded early
+      />
+      </div>
+      <div className="block md:hidden">
+        <Image
+        src="/banner/mainbannerm.jpg" // Replace with your image path
+        alt="Banner Image"
+        layout="fill" // Ensures the image fills the container
+        objectFit="cover" // Maintains aspect ratio and fills the container
+        quality={100} // High-quality rendering
+        priority // Ensures this image is loaded early
+      />
+      </div>
+      
+      
 
       {/* Text */}
-      <div className="absolute inset-0 flex flex-col justify-center items-start text-white font-semibold p-24 space-y-6">
+      <div className="absolute inset-0 flex flex-col justify-center items-start text-white font-semibold p-6 md:p-24 space-y-6">
         <p className="text-lg">SUMMER 2020</p>
         <h1 className="text-4xl md:text-6xl font-bold">NEW COLLECTION</h1>
         <div className="text-sm md:text-base font-normal space-y-1">

@@ -9,10 +9,10 @@ import { FaTwitter } from "react-icons/fa";
 const Footer = () => {
   return (
     <div>
-        <div className='md:flex md:items-center md:justify-between bg-primary p-10 md:pl-32 md:pr-32'>
-            <h1 className='text-2xl md:text-xl font-semibold'>Bandage</h1>
-            <div className='flex  md:justify-between space-x-2 md:space-x-4'>
-               <FaFacebook className='text-fcolor2 text-2xl md:text-xl' />
+        <div className='md:flex md:items-center md:justify-between bg-primary p-10 md:px-32'>
+            <h1 className='text-2xl mb-4 md:text-xl font-semibold'>Bandage</h1>
+            <div className='flex  md:justify-between space-x-4 md:space-x-4'>
+                <FaFacebook className='text-fcolor2 text-2xl md:text-xl' />
                 <FaInstagram className='text-fcolor2 text-2xl md:text-xl' />
                 <FaTwitter className='text-fcolor2 text-2xl md:text-xl' /> 
             </div>

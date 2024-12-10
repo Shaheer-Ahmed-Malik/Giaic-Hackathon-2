@@ -22,7 +22,7 @@ export default function Home() {
           <p className="font-sm text-sm p-6 text-fcolor">Problems trying to resolve the conflict between </p>
         </div>
         {/* editors pick */}
-        <div className="hidden md-block">
+        <div className="hidden md:block">
            <div className="grid grid-cols-4 grid-rows-2 p-24 h-screen gap-4 text-sm font-semibold">
              <div className="relative col-span-2 row-span-2 bg-slate-600">
                 <Image src="/home/filter.svg" alt="" height={0} width={0} 
@@ -54,6 +54,40 @@ export default function Home() {
              </div>
           </div>
         </div>
+      </div>
+      {/* mob */}
+      <div className="block md:hidden">
+        <div className="grid grid-cols-1 grid-rows-4 gap-4 h- p-10">
+          <div className="relative bg-slate-50 col-span-1">
+          <Image src="/home/filter.svg" alt="" height={0} width={0}
+            className="w-full h-full object-cover" />
+            <div className="absolute bottom-4 left-4">
+              <button className="bg-white h-10 w-32">MEN</button>
+            </div>
+          </div>
+          <div className="relative bg-slate-50 col-span-1">
+          <Image src="/home/filter (2).svg" alt="" height={0} width={0}
+            className="w-full h-full object-cover" />
+            <div className="absolute bottom-4 left-4">
+              <button className="bg-white h-10 w-32">WOMEN</button>
+            </div>
+          </div>
+          <div className="relative bg-slate-50 col-span-1">
+          <Image src="/home/filter (3).svg" alt="" height={0} width={0}
+            className="w-full h-full object-cover" />
+            <div className="absolute bottom-4 left-4">
+              <button className="bg-white h-10 w-32">ACCESSORIES</button>
+            </div>
+          </div>
+          <div className="relative bg-slate-50 col-span-1">
+          <Image src="/home/filter (2).svg" alt="" height={0} width={0}
+            className="w-full h-full object-cover" />
+            <div className="absolute bottom-4 left-4">
+              <button className="bg-white h-10 w-32">KIDS</button>
+            </div>
+          </div>
+        </div>
+        {/* <Image src="/home/filter.svg" alt="" height={20} width={200} /> */}
       </div>
        {/* feature product */}
        <div>

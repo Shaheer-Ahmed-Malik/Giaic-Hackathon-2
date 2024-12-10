@@ -79,7 +79,9 @@ const Header = () => {
         <div className='block md:hidden'>
             <div className='flex text-ter justify-between p-8'>
                 <div>
+                    <Link href="/">
                     <h1 className='font-semibold text-2xl'>Bandage</h1>
+                    </Link>
                 </div>
                 <div className='flex justify-between space-x-6'>
                     <Image src="/icon/m-search.svg" alt="wishlist icon" width={20} height={20} />
