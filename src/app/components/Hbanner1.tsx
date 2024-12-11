@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Hbanner = () => {
   return (
@@ -36,9 +37,12 @@ const Hbanner = () => {
           <p>We know how large objects will act, but things on a small scale.</p>
           <p>But things on a small scale.</p>
         </div>
-        <button className="px-8 py-3 bg-buttoncolor text-lg rounded-md hover:bg-green-700 transition duration-300">
-          SHOP NOW
-        </button>
+        <Link href="../product-list">
+          <button className="px-8 py-3 bg-buttoncolor text-lg rounded-md hover:bg-green-700 transition duration-300">
+            SHOP NOW
+          </button>
+        </Link>
+        
       </div>
     </div>
   );

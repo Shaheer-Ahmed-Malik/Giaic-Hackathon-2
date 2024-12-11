@@ -49,7 +49,7 @@ const Header = () => {
                 <div className='text-sm text-fcolor'>
                         <ul className='flex justify-between space-x-4'>
                             <li className='flex duration-300 hover:text-gray-800'><Link href="/">Home</Link></li>
-                            <li className='flex duration-300 hover:text-gray-800'><Link href="../product">Shop</Link> <RiArrowDropDownLine className='text-xl' /></li>
+                            <li className='flex duration-300 hover:text-gray-800'><Link href="../product-list">Shop</Link> <RiArrowDropDownLine className='text-xl' /></li>
                             <li className='flex duration-300 hover:text-gray-800'><Link href="../blog">Blog</Link></li>
                             <li className='flex duration-300 hover:text-gray-800'><Link href="../about-us">About</Link></li>
                             <li className='flex duration-300 hover:text-gray-800'><Link href="../contact-us">Contact</Link></li>
