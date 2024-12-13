@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import Hbanner from "./components/Hbanner1";
 import Hbanner2 from "./components/Hbanner2";
 import Hbanner3 from "./components/Hbanner3";
