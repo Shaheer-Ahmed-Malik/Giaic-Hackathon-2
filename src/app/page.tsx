@@ -28,28 +28,28 @@ export default function Home() {
                 <Image src="/home/filter.svg" alt="" height={0} width={0} 
                 className="w-full h-full object-cover" />
                 <div className="absolute bottom-4 left-4">
-                  <button className="bg-white h-10 w-32">MENS</button>
+                  <button className="bg-white h-5 lg:h-10 w-16 lg:w-32 text-sm lg:text-base">MENS</button>
                 </div>
              </div>
              <div className="relative col-span-1 row-span-2 bg-slate-600">
                 <Image src="/home/filter (1).svg" alt="" height={0} width={0}
                 className="w-full h-full object-cover" />
                 <div className="absolute bottom-4 left-4">
-                  <button className="bg-white h-10 w-32">WOMEN</button>
+                  <button className="bg-white h-5 lg:h-10 w-16 lg:w-32 text-sm lg:text-base">WOMEN</button>
                 </div>
              </div>
              <div className="relative col-span-1 row-span-1 bg-slate-600">
                 <Image src="/home/filter (2).svg" alt="" height={0} width={0}
                 className="w-full h-full object-cover" />
                 <div className="absolute bottom-4 left-4">
-                  <button className="bg-white h-10 w-32">ACCESSORIES</button>
+                  <button className="bg-white h-5 lg:h-10 w- lg:w-32 text-sm lg:text-base">ACCESSORIES</button>
                 </div>
              </div>
              <div className="relative col-span-1 row-span-1 bg-slate-600">
                 <Image src="/home/filter (3).svg" alt="" height={0} width={0}
                 className="w-full h-full object-cover" />
                 <div className="absolute bottom-4 left-4">
-                  <button className="bg-white h-10 w-32">KIDS</button>
+                  <button className="bg-white h-5 lg:h-10 w-16 lg:w-32 text-sm lg:text-base">KIDS</button>
                 </div>
              </div>
           </div>
@@ -235,51 +235,59 @@ export default function Home() {
           <div>
             
             <div className="grid md:grid-cols-3 grid-rows-3 md:grid-rows-1 p-20 items-center gap-10 text-fcolor">
-              <div className="col-span-1 space-y-4 w-full">
-                <Image src="/home/blog1.svg" alt="" width={0} height={0} className="w-full h-" />
-                <div className="flex pt-6 space-x-4 text-sm text-fcolor2">
-                  <p>Google</p>
-                  <p>Trending</p>
-                  <p>New</p>
+              {/* 1 */}
+              <div className="col-span-1 w-full shadow-md hover:shadow-2xl duration-300 rounded-b-lg">
+                <Image src="/home/blog1.svg" alt="" width={0} height={0} className="w-full" />
+                <div className="space-y-4 p-4 pb-6">
+                    <div className="flex pt-6 space-x-4 text-sm text-fcolor2">
+                      <p>Google</p>
+                      <p>Trending</p>
+                      <p>New</p>
+                    </div>
+                    <h1 className="text-lg text-ter">Loudest à la Madison #1 L&apos;integra </h1>
+                    <p>We focus on ergonomics and meeting you where you work. It&apos;s only a keystroke away.</p>
+                    <div className="flex items-center justify-between text-xs">
+                      <p className="flex justify-center items-center gap-2"><LuAlarmClock />22 April 2021</p>
+                      <p className="flex justify-center items-center gap-2"><GoGraph />10 comments</p>
+                    </div>
+                    <p className="flex items-center gap-2 font-semibold">learn more <IoChevronForwardOutline /></p>
                 </div>
-                <h1 className="text-lg text-ter">Loudest à la Madison #1 L&apos;integra </h1>
-                <p>We focus on ergonomics and meeting you where you work. It&apos;s only a keystroke away.</p>
-                <div className="flex items-center justify-between text-xs">
-                  <p className="flex justify-center items-center gap-2"><LuAlarmClock />22 April 2021</p>
-                  <p className="flex justify-center items-center gap-2"><GoGraph />10 comments</p>
-                </div>
-                <p className="flex items-center gap-2 font-semibold">learn more <IoChevronForwardOutline /></p>
               </div>
-              <div className="col-span-1 space-y-4 w-full">
-                <Image src="/home/blog2.svg" alt="" width={0} height={0} className="w-full h-" />
-                <div className="flex pt-6 space-x-4 text-sm text-fcolor2">
-                  <p>Google</p>
-                  <p>Trending</p>
-                  <p>New</p>
+              {/* 2 */}
+              <div className="col-span-1 w-full shadow-md hover:shadow-2xl duration-300 rounded-b-lg">
+                <Image src="/home/blog2.svg" alt="" width={0} height={0} className="w-full" />
+                <div className="space-y-4 p-4 pb-6">
+                    <div className="flex pt-6 space-x-4 text-sm text-fcolor2">
+                      <p>Google</p>
+                      <p>Trending</p>
+                      <p>New</p>
+                    </div>
+                    <h1 className="text-lg text-ter">Loudest à la Madison #1 L&apos;integra </h1>
+                    <p>We focus on ergonomics and meeting you where you work. It&apos;s only a keystroke away.</p>
+                    <div className="flex items-center justify-between text-xs">
+                      <p className="flex justify-center items-center gap-2"><LuAlarmClock />22 April 2021</p>
+                      <p className="flex justify-center items-center gap-2"><GoGraph />10 comments</p>
+                    </div>
+                    <p className="flex items-center gap-2 font-semibold">learn more <IoChevronForwardOutline /></p>
                 </div>
-                <h1 className="text-lg text-ter">Loudest à la Madison #1 L&apos;integral</h1>
-                <p>We focus on ergonomics and meeting you where you work. It&apos;s only a keystroke away.</p>
-                <div className="flex items-center justify-between text-xs">
-                  <p className="flex justify-center items-center gap-2"><LuAlarmClock />22 April 2021</p>
-                  <p className="flex justify-center items-center gap-2"><GoGraph />10 comments</p>
-                </div>
-                <p className="flex items-center gap-2 font-semibold">learn more <IoChevronForwardOutline /></p>
               </div>
-              <div className="col-span-1 space-y-4 w-full">
-                <Image src="/home/blog3.svg" alt="" width={0} height={0} className="w-full h-" />
-                <div className="flex pt-6 space-x-4 text-sm text-fcolor2">
-                  <p>Google</p>
-                  <p>Trending</p>
-                  <p>New</p>
+              {/* 3 */}
+              <div className="col-span-1 w-full shadow-md hover:shadow-2xl duration-300 rounded-b-lg">
+                <Image src="/home/blog3.svg" alt="" width={0} height={0} className="w-full" />
+                <div className="space-y-4 p-4 pb-6">
+                    <div className="flex pt-6 space-x-4 text-sm text-fcolor2">
+                      <p>Google</p>
+                      <p>Trending</p>
+                      <p>New</p>
+                    </div>
+                    <h1 className="text-lg text-ter">Loudest à la Madison #1 L&apos;integra </h1>
+                    <p>We focus on ergonomics and meeting you where you work. It&apos;s only a keystroke away.</p>
+                    <div className="flex items-center justify-between text-xs">
+                      <p className="flex justify-center items-center gap-2"><LuAlarmClock />22 April 2021</p>
+                      <p className="flex justify-center items-center gap-2"><GoGraph />10 comments</p>
+                    </div>
+                    <p className="flex items-center gap-2 font-semibold">learn more <IoChevronForwardOutline /></p>
                 </div>
-                <h1 className="ftext-lg text-ter">Loudest à la Madison #1 L&apos;integral</h1>
-                <p>We focus on ergonomics and meeting you where you work. It&apos;s only a keystroke away.</p>
-                <div className="flex items-center justify-between text-xs">
-                  <p className="flex justify-center items-center gap-2"><LuAlarmClock />22 April 2021</p>
-                  <p className="flex justify-center items-center gap-2"><GoGraph />10 comments</p>
-                </div>
-                <p className="flex items-center gap-2 font-semibold">
-                  <Link href="/blog">learn more </Link><IoChevronForwardOutline /></p>
               </div>
 
               
