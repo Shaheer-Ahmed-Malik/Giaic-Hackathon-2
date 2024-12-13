@@ -53,8 +53,6 @@ const Bannertrial = () => {
         />
       </div>
     </div>
-  );
-}
 
     </div>
   )
