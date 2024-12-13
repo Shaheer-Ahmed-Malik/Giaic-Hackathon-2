@@ -1,10 +1,12 @@
 import Image from "next/image";
+import Bannertrial from "../components/Bannertrial";
 
 export default function Home() {
   return (
     <>
       {/* First Section */}
       <div>
+        <Bannertrial/>
         {/* Using a regular <img> tag for the first banner */}
         <img
           src="/banner/mainbanner.png"

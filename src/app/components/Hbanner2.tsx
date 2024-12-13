@@ -5,15 +5,8 @@ const Hbanner2 = () => {
   return (
     <div>
       <div className="hidden md:block">
-      <div className="relative flex items-center h-screen bg-bancolor2">
-        <Image
-          src="/banner/banner2.svg"
-          alt=""
-          width={0}
-          height={0}
-          className="absolute bottom-0 left-80 w-full h-full"
-        />
-        <div className="flex flex-col pl-20 text-white space-y-10 font-semibold">
+      <div className="flex px-10 h-screen bg-bancolor2 items-center justify-between">
+      <div className="flex flex-col pl-20 text-white space-y-10 font-semibold">
           <h3>SUMMER 2020</h3>
           <h1 className="w-96 text-4xl md:text-6xl font-bold">
             Vita Classic Product
@@ -28,6 +21,10 @@ const Hbanner2 = () => {
               ADD TO CART
             </button>
           </div>
+        </div>
+        <div>
+            <Image src="/banner/banner2.svg" alt="" width={0} height={0} 
+            className="w-full h-screen"/>
         </div>
       </div>
       </div>

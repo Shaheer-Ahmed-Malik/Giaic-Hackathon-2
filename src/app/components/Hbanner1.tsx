@@ -8,7 +8,7 @@ const Hbanner = () => {
       {/* Image */}
       <div className="hidden md:block">
         <Image
-        src="/banner/mainbanner.jpg" // Replace with your image path
+        src="/banner/mainbanner.png" // Replace with your image path
         alt="Banner Image"
         layout="fill" // Ensures the image fills the container
         objectFit="cover" // Maintains aspect ratio and fills the container
