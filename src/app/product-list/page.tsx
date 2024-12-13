@@ -101,7 +101,7 @@ export default function home(){
                 </div>
                 <div className="flex items-center justify-center gap-4">
                     <Link href="#">
-                        <button className="flex items-center justify-center w-[141] h-[50] rounded-lg font-medium bg-primary border-gray-400 border-[1px] hover:bg-gray-200 duration-300">Popularity <RiArrowDropDownLine className="text-3xl" /></button>
+                        <button className="flex items-center justify-center w-[141px] h-[50px] rounded-lg font-medium bg-primary border-gray-400 border-[1px] hover:bg-gray-200 duration-300">Popularity <RiArrowDropDownLine className="text-3xl" /></button>
                     </Link>
                         <button className="w-[94px] h-[50px] rounded-lg bg-secondary hover:bg-blue-300 duration-300 text-white">Filter</button>
                     <Link href="#">
@@ -309,11 +309,11 @@ export default function home(){
                     </div>
                 </div>
                 <div className="text-center text-secondary border-fcolor m-8">
-                    <button className="h-[74] w-[84] border bg-primary">First</button>
-                    <button className="h-[74] w-[46] border text-white bg-secondary">1</button>
-                    <button className="h-[74] w-[46] border hover:bg-primary hover:text-ter duration-300">2</button>
-                    <button className="h-[74] w-[46] border hover:bg-primary hover:text-ter duration-300">3</button>
-                    <button className="h-[74] w-[84] border hover:bg-primary hover:text-ter duration-300">next</button>
+                    <button className="h-[74px] w-[84px] border bg-primary">First</button>
+                    <button className="h-[74px] w-[46px] border text-white bg-secondary">1</button>
+                    <button className="h-[74px] w-[46px] border hover:bg-primary hover:text-ter duration-300">2</button>
+                    <button className="h-[74px] w-[46px] border hover:bg-primary hover:text-ter duration-300">3</button>
+                    <button className="h-[74px] w-[84px] border hover:bg-primary hover:text-ter duration-300">next</button>
                 </div>
                 
 
