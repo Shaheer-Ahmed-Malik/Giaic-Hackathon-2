@@ -83,7 +83,7 @@ export default function home(){
 
             </div>
             {/* bar */}
-            <div className="flex flex-col space-y-6 md:space-y-0 text-center md:flex md:flex-row items-center font-semibold text-fcolor justify-center my-10">
+            <div className="flex flex-col space-y-6 md:space-y-0 text-center md:flex md:flex-row items-center font-semibold text-fcolor justify-center md:justify-between my-10 px-20">
                 <p>Showing all 12 results</p>
                 <div className="flex items-center justify-center gap-4">
                     <p>Views:</p>
@@ -103,7 +103,7 @@ export default function home(){
                     <Link href="#">
                         <button className="flex items-center justify-center w-[141] h-[50] rounded-lg font-medium bg-primary border-gray-400 border-[1px] hover:bg-gray-200 duration-300">Popularity <RiArrowDropDownLine className="text-3xl" /></button>
                     </Link>
-                        <button className="w-[94] h-[50] rounded-lg bg-secondary hover:bg-blue-300 duration-300 text-white">Filter</button>
+                        <button className="w-[94px] h-[50px] rounded-lg bg-secondary hover:bg-blue-300 duration-300 text-white">Filter</button>
                     <Link href="#">
 
                     </Link>
